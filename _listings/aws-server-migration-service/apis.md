@@ -9,11 +9,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Migrations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/aws-server-migration-service/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Server Migration Service API - Disassociate Connector
+  x-api-slug: actiondisassociateconnector-get
+  description: The disassociate-connector API will disassociate a connector from the
+    Server Migration Service, rendering it unavailable to support replication jobs.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AMI.png
+  humanURL: https://aws.amazon.com/server-migration-service/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Databases, Migrations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/aws-server-migration-service/actiondisassociateconnector-get-openapi.md
+- name: AWS Server Migration Service API - Get Connectors
+  x-api-slug: actiongetconnectors-get
+  description: The get-connectors API returns a list of connectors that are registered
+    with the Server Migration Service.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AMI.png
+  humanURL: https://aws.amazon.com/server-migration-service/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Databases, Migrations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/aws-server-migration-service/actiongetconnectors-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.security.token.service.api.gallery.streamdata.io

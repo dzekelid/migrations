@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: Migrations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
@@ -207,6 +207,58 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/coursescourse-idcontent-migrationscontent-migration-idmigration-issuesid-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/coursescourse-idcontent-migrationscontent-migration-idmigration-issuesid-put-openapi.md
+- name: Instructure Canvas Courses API - List Migration Systems
+  x-api-slug: coursescourse-idcontent-migrationsmigrators-get
+  description: List migration systems.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/coursescourse-idcontent-migrationsmigrators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/coursescourse-idcontent-migrationsmigrators-get-openapi.md
+- name: Instructure Canvas Courses API - Update a migration issue
+  x-api-slug: coursescourse-idcontent-migrationscontent-migration-idmigration-issuesid-put
+  description: Update a migration issue.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/coursescourse-idcontent-migrationscontent-migration-idmigration-issuesid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/coursescourse-idcontent-migrationscontent-migration-idmigration-issuesid-put-openapi.md
+- name: Instructure Canvas Courses API - Get a migration issue
+  x-api-slug: coursescourse-idcontent-migrationscontent-migration-idmigration-issuesid-get
+  description: Get a migration issue.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/coursescourse-idcontent-migrationscontent-migration-idmigration-issuesid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/coursescourse-idcontent-migrationscontent-migration-idmigration-issuesid-get-openapi.md
+- name: Instructure Canvas Courses API - List migration issues
+  x-api-slug: coursescourse-idcontent-migrationscontent-migration-idmigration-issues-get
+  description: List migration issues.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/coursescourse-idcontent-migrationscontent-migration-idmigration-issues-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/coursescourse-idcontent-migrationscontent-migration-idmigration-issues-get-openapi.md
 - name: Instructure Canvas Courses API - List Migration Systems
   x-api-slug: coursescourse-idcontent-migrationsmigrators-get
   description: List migration systems.
@@ -428,6 +480,58 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/groupsgroup-idcontent-migrationsmigrators-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/groupsgroup-idcontent-migrationsmigrators-get-openapi.md
+- name: Instructure Canvas Groups API - Update a migration issue
+  x-api-slug: groupsgroup-idcontent-migrationscontent-migration-idmigration-issuesid-put
+  description: Update a migration issue.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/groupsgroup-idcontent-migrationscontent-migration-idmigration-issuesid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/groupsgroup-idcontent-migrationscontent-migration-idmigration-issuesid-put-openapi.md
+- name: Instructure Canvas Groups API - Get a migration issue
+  x-api-slug: groupsgroup-idcontent-migrationscontent-migration-idmigration-issuesid-get
+  description: Get a migration issue.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/groupsgroup-idcontent-migrationscontent-migration-idmigration-issuesid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/groupsgroup-idcontent-migrationscontent-migration-idmigration-issuesid-get-openapi.md
+- name: Instructure Canvas Groups API - List migration issues
+  x-api-slug: groupsgroup-idcontent-migrationscontent-migration-idmigration-issues-get
+  description: List migration issues.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/groupsgroup-idcontent-migrationscontent-migration-idmigration-issues-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/groupsgroup-idcontent-migrationscontent-migration-idmigration-issues-get-openapi.md
+- name: Instructure Canvas Groups API - List Migration Systems
+  x-api-slug: groupsgroup-idcontent-migrationsmigrators-get
+  description: List migration systems.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/groupsgroup-idcontent-migrationsmigrators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/groupsgroup-idcontent-migrationsmigrators-get-openapi.md
 - name: Instructure Canvas Users API - List content migrations
   x-api-slug: usersuser-idcontent-migrations-get
   description: List content migrations.
@@ -623,6 +727,58 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/usersuser-idcontent-migrationscontent-migration-idmigration-issuesid-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/usersuser-idcontent-migrationscontent-migration-idmigration-issuesid-put-openapi.md
+- name: Instructure Canvas Users API - List Migration Systems
+  x-api-slug: usersuser-idcontent-migrationsmigrators-get
+  description: List migration systems.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/usersuser-idcontent-migrationsmigrators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/usersuser-idcontent-migrationsmigrators-get-openapi.md
+- name: Instructure Canvas Users API - Update a migration issue
+  x-api-slug: usersuser-idcontent-migrationscontent-migration-idmigration-issuesid-put
+  description: Update a migration issue.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/usersuser-idcontent-migrationscontent-migration-idmigration-issuesid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/usersuser-idcontent-migrationscontent-migration-idmigration-issuesid-put-openapi.md
+- name: Instructure Canvas Users API - Get a migration issue
+  x-api-slug: usersuser-idcontent-migrationscontent-migration-idmigration-issuesid-get
+  description: Get a migration issue.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/usersuser-idcontent-migrationscontent-migration-idmigration-issuesid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/usersuser-idcontent-migrationscontent-migration-idmigration-issuesid-get-openapi.md
+- name: Instructure Canvas Users API - List migration issues
+  x-api-slug: usersuser-idcontent-migrationscontent-migration-idmigration-issues-get
+  description: List migration issues.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/usersuser-idcontent-migrationscontent-migration-idmigration-issues-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/instructure/usersuser-idcontent-migrationscontent-migration-idmigration-issues-get-openapi.md
 - name: Instructure Canvas Users API - List Migration Systems
   x-api-slug: usersuser-idcontent-migrationsmigrators-get
   description: List migration systems.

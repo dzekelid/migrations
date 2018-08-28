@@ -6,11 +6,41 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Migrations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/rebilly/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Rebilly - Migrate payment cards to another gateway account
+  x-api-slug: paymentcardsmigrationsmigrate-post
+  description: Migrate payment cards to another gateway account
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/rebilly/paymentcardsmigrationsmigrate-post-openapi.md
+- name: Rebilly - Migrate payment cards to another gateway account
+  x-api-slug: paymentcardsmigrationsmigrate-post
+  description: Migrate payment cards to another gateway account
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/rebilly/paymentcardsmigrationsmigrate-post-openapi.md
+- name: Rebilly - Migrate payment cards to another gateway account
+  x-api-slug: paymentcardsmigrationsmigrate-post
+  description: Migrate payment cards to another gateway account
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/migrations/master/_listings/rebilly/paymentcardsmigrationsmigrate-post-openapi.md
 x-common:
 - type: x-website
   url: https://www.rebilly.com
